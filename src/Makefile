@@ -18,8 +18,8 @@ OBJECTS = $(SOURCES:.c=.o)
 
 CC	= gcc
 CFLAGS	= -O2 -g -Wall
-LDFLAGS	= -L/usr/X11R6/lib
-LDLIBS	= -lglut -lGLU -lGL -lXt -lXi -lXmu -lXext -lX11 -lm
+LDFLAGS =
+LDLIBS	= -lglut -lGLU -lGL -lm
 
 
 all: $(TARGET)
